@@ -1,5 +1,6 @@
 ### LC1: Contains Duplicates (Easy)
 Given a list of integers, return true if any value appears more than once. Return false otherwise.
+_Solved Monday May 5th_
 
 ##### Solution
 ```
