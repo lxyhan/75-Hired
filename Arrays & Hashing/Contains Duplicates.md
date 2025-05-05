@@ -3,11 +3,12 @@ Given a list of integers, return true if any value appears more than once. Retur
 _Solved Monday May 5th_
 
 ##### Solution
+
 ```
 def hasDuplicate(self, nums: List\[int]) -> bool:
-	unique = set()
-	for num in nums:
-    	unique.add(num)
+    unique = set()
+    for num in nums:
+        unique.add(num)
     return len(nums) != len(unique)
 ```
 **Explanation:** Sets cannot contain duplicate elements. If we add all elements from `nums` to a set, and the lengths differ, it means there was at least one duplicate.
